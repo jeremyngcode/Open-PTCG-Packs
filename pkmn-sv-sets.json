@@ -1,0 +1,142 @@
+{
+    "SVI": {
+        "name": "Scarlet & Violet",
+        "pull_rates": {
+            "DR": 0.1376,
+            "UR": 0.0657,
+            "IR": 0.0767,
+            "SIR": 0.0315,
+            "HR": 0.0185
+        },
+        "cards": {}
+    },
+    "PAL": {
+        "name": "Paldea Evolved",
+        "pull_rates": {
+            "DR": 0.1372,
+            "UR": 0.0664,
+            "IR": 0.077,
+            "SIR": 0.0317,
+            "HR": 0.0176
+        },
+        "cards": {}
+    },
+    "OBF": {
+        "name": "Obsidian Flames",
+        "pull_rates": {
+            "DR": 0.1361,
+            "UR": 0.0663,
+            "IR": 0.076,
+            "SIR": 0.0313,
+            "HR": 0.0192
+        },
+        "cards": {}
+    },
+    "MEW": {
+        "name": "151",
+        "pull_rates": {
+            "DR": 0.1328,
+            "UR": 0.0644,
+            "IR": 0.085,
+            "SIR": 0.0311,
+            "HR": 0.0194
+        },
+        "cards": {}
+    },
+    "PAR": {
+        "name": "Paradox Rift",
+        "pull_rates": {
+            "DR": 0.1557,
+            "UR": 0.0664,
+            "IR": 0.077,
+            "SIR": 0.0211,
+            "HR": 0.0122
+        },
+        "cards": {}
+    },
+    "PAF": {
+        "name": "Paldean Fates",
+        "pull_rates": {
+            "DR": 0.1589,
+            "UR": 0.0661,
+            "IR": 0.0722,
+            "SIR": 0.0172,
+            "HR": 0.0161,
+            "SR": 0.2544,
+            "SUR": 0.0772
+        },
+        "cards": {}
+    },
+    "TEF": {
+        "name": "Temporal Forces",
+        "pull_rates": {
+            "DR": 0.1683,
+            "UR": 0.0667,
+            "IR": 0.0772,
+            "SIR": 0.0117,
+            "HR": 0.0072,
+            "ACE": 0.05
+        },
+        "cards": {}
+    },
+    "TWM": {
+        "name": "Twilight Masquerade",
+        "pull_rates": {
+            "DR": 0.1693,
+            "UR": 0.0661,
+            "IR": 0.0773,
+            "SIR": 0.0117,
+            "HR": 0.0068,
+            "ACE": 0.0506
+        },
+        "cards": {}
+    },
+    "SFA": {
+        "name": "Shrouded Fable",
+        "pull_rates": {
+            "DR": null,
+            "UR": null,
+            "IR": null,
+            "SIR": null,
+            "HR": null,
+            "ACE": null
+        },
+        "cards": {}
+    },
+    "SCR": {
+        "name": "Stellar Crown",
+        "pull_rates": {
+            "DR": 0.169,
+            "UR": 0.0675,
+            "IR": 0.0779,
+            "SIR": 0.0111,
+            "HR": 0.0073,
+            "ACE": 0.0494
+        },
+        "cards": {}
+    },
+    "SSP": {
+        "name": "Surging Sparks",
+        "pull_rates": {
+            "DR": 0.1694,
+            "UR": 0.0674,
+            "IR": 0.0767,
+            "SIR": 0.0115,
+            "HR": 0.0053,
+            "ACE": 0.0503
+        },
+        "cards": {}
+    },
+    "PRE": {
+        "name": "Prismatic Evolutions",
+        "pull_rates": {
+            "DR": null,
+            "UR": null,
+            "IR": null,
+            "SIR": null,
+            "HR": null,
+            "ACE": null
+        },
+        "cards": {}
+    }
+}

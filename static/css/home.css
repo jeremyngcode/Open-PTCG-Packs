@@ -1,0 +1,209 @@
+* {
+	padding: 0;
+	margin: 0;
+}
+
+body {
+	min-width: 1850px;
+	font-family: "Roboto", sans-serif;
+	color: #181818;
+	background-color: #ededed;
+}
+
+.header-banner {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	background-color: #503b59;
+	padding: 16px 20px;
+	margin-bottom: 32px;
+
+	.header-container {
+		display: flex;
+		align-items: center;
+		gap: 5px;
+		color: #fcfbfc;
+
+		.pokeball-icon {
+			width: 48px;
+		}
+		.header {
+			font-size: 28px;
+			padding: 10px 5px;
+		}
+	}
+}
+
+.pokemon-sets {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	gap: 28px;
+	margin: 0px 16px 32px;
+
+	.box {
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+		align-items: center;
+		gap: 7px;
+		border-radius: 8px;
+		padding: 12px;
+		box-shadow:
+			rgb(0 0 0 / 50%) 0px 5px 10px,
+			rgb(0 0 0 / 5%) 0px 0px 10px inset;
+		&:hover {
+			background-color: #fff6e5;
+			transform: translateY(-1px);
+		}
+		&:active {
+			background-color: #ffedcc;
+			transform: translateY(1px);
+			transition: 0.05s;
+		}
+
+		.avg-pack-value {
+			font-size: 16px;
+		}
+	}
+	.box.active {
+		background-color: #ffedcc;
+	}
+}
+
+.pack-cards {
+	margin: 0px 16px 32px;
+
+	.non-holo-cards .border {
+		border: 2px dotted limegreen;
+	}
+	.holo-cards .border {
+		border: 2px dotted orange;
+	}
+
+	.non-holo-cards, .holo-cards {
+		display: flex;
+		justify-content: center;
+		margin-bottom: 20px;
+
+		.border {
+			display: flex;
+			gap: 24px;
+			border-radius: 8px;
+			padding: 18px 18px 10px;
+
+			.box {
+				display: flex;
+				flex-direction: column;
+				align-items: center;
+				gap: 18px;
+				width: 225px;
+				position: relative;
+
+				.card-img-placeholder, .card-img {
+					width: 100%;
+				}
+				.card-img {
+					position: absolute;
+					opacity: 0;
+
+					&.enlarge-on-hover:hover {
+						transform: scale(1.1);
+						transition: 0.05s;
+					}
+				}
+				.card-value-placeholder, .card-value {
+					font-size: 16px;
+				}
+				.card-value {
+					opacity: 0;
+				}
+			}
+		}
+	}
+}
+
+.refresh-btn a {
+	position: fixed;
+	bottom: 60px;
+	right: 60px;
+	border-radius: 5px;
+	background-color: #ded3e2;
+	opacity: 60%;
+	box-shadow:
+		rgb(0 0 0 / 40%) 0px 2px 5px,
+		rgb(0 0 0 / 40%) 0px 1px 7px;
+	&:hover {
+		background-color: #d5c9db;
+	}
+	&:active {
+		background-color: #c5b3cc;
+	}
+
+	.icon {
+		width: 50px;
+		padding: 10px;
+		box-sizing: border-box;
+		fill: #181818;
+	}
+}
+
+.last-updated {
+	position: fixed;
+	bottom: 75px;
+	right: 140px;
+	font-size: 16px;
+}
+
+.fadein-1 {
+	animation: FadeIn 0.7s ease-in-out forwards;
+}
+.fadein-2 {
+	animation: FadeIn 0.7s ease-in-out 0.15s forwards;
+}
+.fadein-3 {
+	animation: FadeIn 0.7s ease-in-out 0.30s forwards;
+}
+.fadein-4 {
+	animation: FadeIn 0.7s ease-in-out 0.45s forwards;
+}
+.fadein-5 {
+	animation: FadeIn 0.7s ease-in-out 0.60s forwards;
+}
+.fadein-6 {
+	animation: FadeIn 0.7s ease-in-out 0.75s forwards;
+}
+.fadein-7 {
+	animation: FadeIn 0.7s ease-in-out 0.90s forwards;
+}
+
+.fadeup-1 {
+	transform: translateY(10px);
+	animation: FadeUp 0.5s ease-in-out 0.10s forwards;
+}
+.fadeup-2 {
+	transform: translateY(10px);
+	animation: FadeUp 0.5s ease-in-out 1.05s forwards
+}
+
+.rotate360 {
+	animation: Rotate360 1s linear infinite;
+}
+
+.cursor-pointer {
+	cursor: pointer;
+}
+
+@keyframes FadeIn {
+	to {opacity: 1;}
+}
+@keyframes FadeUp {
+	from {transform: translateY(10px);}
+	to {
+		transform: translateY(0);
+		opacity: 1;
+	}
+}
+@keyframes Rotate360 {
+	to {transform: rotate(360deg);}
+}

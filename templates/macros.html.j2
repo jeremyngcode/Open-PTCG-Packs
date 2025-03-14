@@ -1,0 +1,14 @@
+{% macro pkmn_set(sv_set, avg_pack_value) %}
+	<div class="box {{ sv_set }} cursor-pointer" data-sv-set="{{ sv_set }}">
+		<img src="{{ url_for('static', filename='images/' + sv_set + '.png') }}">
+		<p class="avg-pack-value">${{ avg_pack_value }}</p>
+	</div>
+{% endmacro %}
+
+{% macro card_slot(slot_number) %}
+	<div class="box {{ slot_number }}">
+		<img src="{{ url_for('static', filename='images/pkmn-card-backside.png') }}" class="card-img-placeholder">
+		<img src="{{ url_for('static', filename='images/pkmn-card-backside.png') }}" class="card-img">
+		<p class="card-value-placeholder">???</p>
+	</div>
+{% endmacro %}
