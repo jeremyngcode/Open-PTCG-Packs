@@ -6,7 +6,7 @@ svSetBtns.forEach(btn => {
 			btn.classList.remove('active');
 		});
 
-		let svSet = event.currentTarget.getAttribute("data-sv-set");
+		let svSet = event.currentTarget.getAttribute('data-sv-set');
 		fetch(`/open-pack?sv-set=${svSet}`)
 			.then(response => response.json())
 			.then(pack_cards => {
@@ -65,9 +65,9 @@ const refreshBtn = document.querySelector('.refresh-btn a')
 
 refreshBtn.onclick = (event) => {
 	refreshBtn.querySelector('.icon').classList.add('rotate360');
-	refreshBtn.style.pointerEvents = "none";
+	refreshBtn.style.pointerEvents = 'none';
 
 	svSetBtns.forEach(btn => {
-		btn.style.pointerEvents = "none";
+		btn.style.pointerEvents = 'none';
 	});
 };
