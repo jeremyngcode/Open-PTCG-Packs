@@ -138,5 +138,16 @@
             "ACE": null
         },
         "cards": {}
+    },
+    "JTG": {
+        "name": "Journey Together",
+        "pull_rates": {
+            "DR": 0.2029,
+            "UR": 0.0654,
+            "IR": 0.085,
+            "SIR": 0.0116,
+            "HR": 0.0073
+        },
+        "cards": {}
     }
 }
