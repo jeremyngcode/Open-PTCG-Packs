@@ -7,7 +7,7 @@ As Pokemon card collectors, it's usually more economical to simply buy the singl
 
 The App / Usage
 ---------------
-![sample-app-page](https://github.com/user-attachments/assets/957247aa-00f9-4ceb-9314-346a6a8acb14)
+![sample-app-page](https://github.com/jeremyngcode/Open-PTCG-Packs/assets/156220343/957247aa-00f9-4ceb-9314-346a6a8acb14)
 
 Simply run [app.py](app.py) and click on the set you'd like to open!
 
