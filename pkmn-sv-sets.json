@@ -149,5 +149,16 @@
             "HR": 0.0073
         },
         "cards": {}
+    },
+    "DRI": {
+        "name": "Destined Rivals",
+        "pull_rates": {
+            "DR": 0.1983,
+            "UR": 0.0639,
+            "IR": 0.0829,
+            "SIR": 0.0106,
+            "HR": 0.0067
+        },
+        "cards": {}
     }
 }
